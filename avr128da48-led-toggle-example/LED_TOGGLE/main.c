@@ -29,6 +29,9 @@ int main (void)
     PORTC.DIRCLR = PIN7_bm;
     /* Configure LED0 pin as output */
     PORTC.DIRSET = PIN6_bm;
+    /* Enable the internal pull-up for PC7 */
+    PORTC.PIN7CTRL |= PORT_PULLUPEN_bm; 
+    
     while (1)
     {
         /* Check the status of SW0 */
