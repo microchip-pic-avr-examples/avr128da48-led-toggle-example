@@ -1,9 +1,8 @@
-<div id="readme" class="Box-body readme blob js-code-block-container">
- <article class="markdown-body entry-content p-3 p-md-6" itemprop="This needs to locked down and 'never' changed"><p><a href="https://www.microchip.com" rel="nofollow"><img src="images/Microchip.png" alt="MCHP" width="300";"></a></p>
+[![MCHP](images/microchip.png)](https://www.microchip.com)
 
 # AVR128DA48 LED Toggle Code Example
 
-This repository provides an Atmel Studio solution for a basic application using an LED and a Button. The LED is turned off while the button is pressed and turned on while the button is released.
+This repository provides an Microchip Studio solution for a basic application using an LED and a Button. The LED is turned off while the button is pressed and turned on while the button is released.
 
 ## Related Documentation
 More details and code examples on the AVR128DA48 can be found at the following links:
@@ -13,7 +12,7 @@ More details and code examples on the AVR128DA48 can be found at the following l
 
 
 ## Software Used
-- Atmel Studio 7.0.2397 or newer [(microchip.com/mplab/avr-support/atmel-studio-7)](https://www.microchip.com/mplab/avr-support/atmel-studio-7)
+- Microchip Studio 7.0.2397 or newer [(Microchip Studio for AVR® and SAM Devices)](https://www.microchip.com/en-us/development-tools-tools-and-software/microchip-studio-for-avr-and-sam-devices)
 - AVR-Dx 1.0.18 or newer Device Pack
 
 
@@ -34,7 +33,7 @@ The following configurations must be made for this project:
 
 ## Operation
 
-1. Open the *LED_TOGGLE.atsln* solution in Atmel Studio
+1. Open the *LED_TOGGLE.atsln* solution in Microchip Studio
 
 2. Build the Bootloader solution: right click on *LED_TOGGLE* solution and select Build
 <br><img src="images/AVR-DA_led_toggle_build.png" width="500">
