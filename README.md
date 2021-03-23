@@ -1,6 +1,6 @@
 [![MCHP](images/microchip.png)](https://www.microchip.com)
 
-# AVR128DA48 LED Toggle Code Example
+# LED Toggle Using a Button
 
 This repository provides an Microchip Studio solution for a basic application using an LED and a Button. The LED is turned off while the button is pressed and turned on while the button is released.
 
